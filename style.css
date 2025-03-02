@@ -32,6 +32,36 @@ button {
     margin: 20px auto; /* 按鈕置中 */
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.image-container {
+    position: fixed;
+    bottom: 50px; /* 距離頁底2公分 */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 圖片之間的間距 */
+}
+
+.image-container img {
+    width: 150px; /* 圖片寬度 */
+    height: auto; /* 保持圖片比例 */
+    cursor: pointer;
+    margin: 0 10px; /* 圖片之間的間距 */
+}
+
+
 #quizContainer {
     display: none;
 }
